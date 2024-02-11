@@ -12,7 +12,7 @@ function printCols(arr, m, n) {
         str += arr[row][col];
       }
     } else {
-      for (let row = m - 1; row > 0; row--) {
+      for (let row = m - 1; row >= 0; row--) {
         str += arr[row][col];
       }
     }

@@ -5,13 +5,13 @@ const arr1 = [
   [20, 28, 29],
 ];
 
-function printRows(arr, m, n) {
+function printRows(arr) {
   let str = "";
-  for (let row = 0; row < m; row++) {
-    for (let col = 0; col < n; col++) {
-      str += arr[row][col] + ",";
+  for (let row = 0; row < arr.length; row++) {
+    for (let col = 0; col < arr[row].length; col++) {
+      str += arr[row][col] + " ";
     }
   }
   return str;
 }
-console.log(printRows(arr1, 4, 3));
+console.log(printRows(arr1));
