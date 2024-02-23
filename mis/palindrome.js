@@ -11,5 +11,5 @@ function palindrome(str) {
   }
   return true;
 }
-const result = palindrome("teetg");
+const result = palindrome("teet");
 console.log(result);
